@@ -196,7 +196,7 @@ MY_CFLAGS_Debug := \
 	-Wno-unused-function \
 	-Wno-format \
 	-m64 \
-	-Os \
+	-w -O3 \
 	-g \
 	-fdata-sections \
 	-ffunction-sections \
@@ -271,7 +271,7 @@ MY_CFLAGS_Release := \
 	-Wno-unused-function \
 	-Wno-format \
 	-m64 \
-	-Os \
+	-w -O3 \
 	-fno-ident \
 	-fdata-sections \
 	-ffunction-sections \

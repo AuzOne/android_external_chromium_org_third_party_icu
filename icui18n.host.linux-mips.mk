@@ -192,7 +192,7 @@ MY_CFLAGS_Debug := \
 	-fno-builtin-sin \
 	-Wno-format \
 	-m32 \
-	-Os \
+	-w -O3 \
 	-g \
 	-fdata-sections \
 	-ffunction-sections \
@@ -269,7 +269,7 @@ MY_CFLAGS_Release := \
 	-fno-builtin-sin \
 	-Wno-format \
 	-m32 \
-	-Os \
+	-w -O3 \
 	-fno-ident \
 	-fdata-sections \
 	-ffunction-sections \
