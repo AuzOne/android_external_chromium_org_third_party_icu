@@ -224,7 +224,7 @@ MY_CFLAGS_Debug := \
 	-Wno-logical-op-parentheses \
 	-Wno-tautological-compare \
 	-Wno-switch \
-	-Os \
+	-w -O3 \
 	-g \
 	-gdwarf-4 \
 	-fdata-sections \
@@ -315,7 +315,7 @@ MY_CFLAGS_Release := \
 	-Wno-logical-op-parentheses \
 	-Wno-tautological-compare \
 	-Wno-switch \
-	-Os \
+	-w -O3 \
 	-fno-ident \
 	-fdata-sections \
 	-ffunction-sections \
